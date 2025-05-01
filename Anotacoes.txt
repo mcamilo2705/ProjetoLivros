@@ -1,0 +1,16 @@
+O projeto e code first
+1-Criar as Models
+2-Criar o Context
+3-Transformar em BD
+
+instalar os pacotes para o projeto
+1-SwaggerGen
+2-SwaggerUI
+3-Microsoft.AspNetCore.Mvc.NewtonsoftJson
+4-
+5-
+
+Na Models criar as classes para representar as tabelas do banco de dados
+
+dotnet ef migration add Inicial
+dotnet ef database update
