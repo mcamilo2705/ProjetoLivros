@@ -14,3 +14,17 @@ Na Models criar as classes para representar as tabelas do banco de dados
 
 dotnet ef migration add Inicial
 dotnet ef database update
+
+Skill do desenvolvedor back-end
+--> Logica de programação
+--> (Teste técnico para vagas em grandes empresas, sugestão - Leetcode e Hackerrank. Esse testes são aplicados em grandes empresas)
+--> Programação orientada a objetos (conceito de api)
+--> Conhecer banco de dados relacional: DDL e DML, para se aprofundar estudar o TSQL
+--> APIs (CRUD, Autenticação e Autorização ), Database First=faz o banco de dados via sql ou Code First = faz o banco de dados via código,
+--> Publicar API
+--> Arquiteturas em Camadas
+
+Migrations
+-> Codigo em banco de dados utilizar o migrations, essa migration e uma linha do tempo
+- Migration Inicial
+- Migration Tabela nova - Pagamento
