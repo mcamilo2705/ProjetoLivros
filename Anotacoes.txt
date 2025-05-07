@@ -12,7 +12,7 @@ instalar os pacotes para o projeto
 
 Na Models criar as classes para representar as tabelas do banco de dados
 
-dotnet ef migration add Inicial
+dotnet ef migrations add Inicial
 dotnet ef database update
 
 Skill do desenvolvedor back-end
@@ -28,3 +28,8 @@ Migrations
 -> Codigo em banco de dados utilizar o migrations, essa migration e uma linha do tempo
 - Migration Inicial
 - Migration Tabela nova - Pagamento
+
+
+CRUD
+-Métodos Sincrono: e um método que fica parado no código ate que tenha um retorno, para depois dar continuidade no codigo
+-Método Assincronos: Faz N coisas em paralelo

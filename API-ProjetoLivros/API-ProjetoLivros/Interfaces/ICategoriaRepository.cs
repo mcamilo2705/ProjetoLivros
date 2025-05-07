@@ -4,9 +4,13 @@ namespace API_ProjetoLivros.Interfaces
 {
     public interface ICategoriaRepository
     {
-        Categoria BuscarPorId(int id);
+
+        //Criar metodos assincronos - Taks(tarefas)
+        Task<List<Categoria>> ListarTodosAsync(); //metodo assincrono usa a palavra Task
+        List<Categoria> ListarTodos();//metodo sincrono
         void Cadastrar(Categoria categoria);
-        void Atualizar(int id, Categoria categoria);
-        void Deletar(int id);
+        Categoria? Atualizar(int id, Categoria categoria); //modelo simples, ou seja, diferente do projeto Ecommerce
+        Categoria? Deletar (int id);//modelo simples, ou seja, diferente do projeto Ecommerce
+
     }
 }
